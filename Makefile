@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Werror -I.
+CFLAGS = -Wall -I.
 #LIBS = -L. -lmincrypt
 SRCS = $(wildcard *.c)
 OBJS = $(SRCS:.c=.o)
